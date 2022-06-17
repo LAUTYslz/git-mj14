@@ -12,3 +12,7 @@ Comandos que debemos utilizar tanto para crear un proyecto con git, como para es
 
 ## Descarga del repositorio
 Estos comandos debemos utulizarlos cuando accedemos  un repositorio remoto y necesitamos descargar la info del mismo. Una vez realizada la copia simplemente debemos gestionar los cambios locales y enviarlos, asi como tambien administrar los cambios remotos, para descargarlos e integrarlos al historial local.
+
+* **git clone `remote` `folder`**: descargamos el repositorio remoto en nuestra computadora
+* **cd `folder`**: Abrimos el Repositorio clonado tras usar el comando anterior
+* **git fetch `renote`**: Solicita el historial de cambios del repositorio remoto.
