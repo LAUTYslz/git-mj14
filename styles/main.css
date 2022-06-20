@@ -3,12 +3,23 @@
 /* Reglas Generales */
 *{
     box-sizing: border-box;
-    font-family: 'Raleway','Calibri', sans-serif;
+    font-family: 'Raleway','Calibri', sa;
 }
 /* Margenes */
-
+body,
+h1,
+h2,
+h3,
+header p{
+    margin: 0;
+}
 /* Bordes */
-
+iframe{
+    border: 0;
+}
 /* Rellenos */
 
 /* Estilos */
+nav a{
+    text-decoration: none;
+}
