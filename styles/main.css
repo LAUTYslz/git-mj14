@@ -85,5 +85,16 @@ nav a{
     .menu{
         position: static;
         display: flex;
+        background-image: none;
+        width: auto;
+    }
+    .menu a{
+        padding: .5rem;
+    }
+}
+/* Large Devices - Desktop */
+@media screen and (min-width: 1200px){
+    nac{
+        justify-content: ce;
     }
 }
